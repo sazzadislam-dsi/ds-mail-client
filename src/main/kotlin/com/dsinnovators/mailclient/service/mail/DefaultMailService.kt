@@ -8,6 +8,7 @@ import javax.mail.Session
 
 @Service
 class DefaultMailService : MailService {
+    // will be received from user or later
     val emailAddress = "mail@gmmail.com"
     val password = "password"
     override fun getMail(startIndex: Int, endIndex: Int): List<Email> {
